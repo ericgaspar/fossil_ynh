@@ -1,13 +1,4 @@
-# Usage of this package (REMOVE THIS SECTION BEFORE RELEASE)
-- Copy this app before working on it.
-- Edit the `conf/nginx.conf` file to match app prerequisites.
-- Edit the `manifest.json` with app specific info.
-- Edit the `install`, `upgrade`, `remove`, `backup`, and `restore` scripts.
-  - Using the [script helpers documentation.](https://yunohost.org/#/packaging_apps_helpers)
-- Add a `LICENSE` file for the package.
-- Edit `README.md` and `README_fr.md`.
-
-# Example app for YunoHost
+# Fossilapp for YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/REPLACEBYYOURAPP.svg)](https://dash.yunohost.org/appci/app/REPLACEBYYOURAPP) ![](https://ci-apps.yunohost.org/ci/badges/REPLACEBYYOURAPP.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/REPLACEBYYOURAPP.maintain.svg)  
 [![Install REPLACEBYYOURAPP with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=REPLACEBYYOURAPP)
@@ -65,7 +56,7 @@ https://yunohost.org/packaging_apps
 ## Links
 
  * Report a bug: https://github.com/YunoHost-Apps/REPLACEBYYOURAPP_ynh/issues
- * App website: Link to the official website of this app.
+ * App website: https://fossil-scm.org/
  * Upstream app repository: Link to the official repository of the upstream app.
  * YunoHost website: https://yunohost.org/
 
