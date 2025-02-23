@@ -50,7 +50,7 @@ ynh_script_progression "Install $app"
 ynh_script_progression "Starting $app's systemd service..."
 
 # Start a systemd service
-ynh_systemctl --service="$app" --action="start"
+#ynh_systemctl --service="$app" --action="start"
 
 #=================================================
 # END OF SCRIPT
