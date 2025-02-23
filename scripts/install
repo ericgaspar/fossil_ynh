@@ -43,7 +43,7 @@ yunohost service add "$app" --description="A short description of the app" --log
 ynh_script_progression "Install $app"
 
 pushd /usr/local/bin
-	fossil init $data_dir/new-repository
+	FOSSIL_HOME="/usr/local/bin" fossil init $data_dir/new-repository
 popd
 
 #=================================================
