@@ -7,7 +7,7 @@ Type=simple
 User=__APP__
 Group=__APP__
 WorkingDirectory=/usr/local/bin
-ExecStart=/usr/local/bin/fossil server --port __PORT__ __DATA_DIR__
+ExecStart=/usr/local/bin/fossil server --port __PORT__ --scgi __DATA_DIR__
 Restart=always
 RestartSec=3
 
