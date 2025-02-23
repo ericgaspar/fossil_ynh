@@ -13,7 +13,7 @@ maintainers = ["eric_G"]
 
 [upstream]
 license = "free"
-website = "https://example.com"
+website = "https://fossil-scm.org"
 demo = "https://demo.example.com"
 admindoc = "https://yunohost.org/packaging_apps"
 userdoc = "https://yunohost.org/apps"
@@ -42,12 +42,12 @@ ram.runtime = "50M"
 
 
 [resources]
-    # See the packaging documentation for the full set
-    # of explanation regarding the behavior and properties for each of those
 
     [resources.sources]
 
     [resources.sources.main]
+    in_subdir=false
+    extract=false
     url = "https://fossil-scm.org/home/uv/fossil-linux-x64-202412191913.tar.gz"
     sha256 = "03270e781ab6a2de7695b1c3ffccb4af3b3f9195508b2c99eae5f8dc2ad0786a"
 
