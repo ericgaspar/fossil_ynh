@@ -40,9 +40,9 @@ yunohost service add "$app" --description="A short description of the app" --log
 #=================================================
 ynh_script_progression "Install $app"
 
-pushd $install_dir
-	fossil init $install_dir/new-repository
-popd
+#pushd $install_dir
+#	fossil init $install_dir/new-repository
+#popd
 
 #=================================================
 # START SYSTEMD SERVICE
