@@ -6,8 +6,8 @@ After=network-online.target
 Type=simple
 User=__APP__
 Group=__APP__
-WorkingDirectory=INSTALL_DIR__
-ExecStart=INSTALL_DIR__/fossil server --port __PORT__ __DATA_DIR__
+WorkingDirectory=/usr/local/bin
+ExecStart=/usr/local/bin/fossil server --port __PORT__ __DATA_DIR__
 Restart=always
 RestartSec=3
 
