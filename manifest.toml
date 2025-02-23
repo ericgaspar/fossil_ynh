@@ -47,7 +47,7 @@ ram.runtime = "50M"
 
     [resources.sources.main]
     in_subdir=false
-    extract=false
+    rename="fossil"
     url = "https://fossil-scm.org/home/uv/fossil-linux-x64-202412191913.tar.gz"
     sha256 = "c6c5a2999fffcc9c3f19b0635a067115356bceb8d15513a9c8dd8b98936eff3b"
 
