@@ -1,15 +1,15 @@
 [Unit]
-Description=Small description of the service
-After=network.target
+Description=Fossil user server
+After=network-online.target
 
 [Service]
 Type=simple
 User=__APP__
 Group=__APP__
-WorkingDirectory=__INSTALL_DIR__/
-ExecStart=__INSTALL_DIR__/script
-StandardOutput=append:/var/log/__APP__/__APP__.log
-StandardError=inherit
+WorkingDirectory=INSTALL_DIR__/
+ExecStart=INSTALL_DIR__/fossil server --port __PORT__ __DATA_DIR__
+Restart=always
+RestartSec=3
 
 ### Depending on specificities of your service/app, you may need to tweak these
 ### .. but this should be a good baseline
